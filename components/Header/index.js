@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import useWindowWidth from "../../helpers/useWindowSize";
@@ -35,15 +36,15 @@ export default function Header() {
   };
 
   const handleSideBarOpen = () => {
-    setSideBarOpen(!sideBarOpen)
-    const sidebar = document.querySelector('.sidebar');
-    console.log(sidebar)
-    if(sideBarOpen){
-      sidebar.classList.remove('open')
-    }else{
-      sidebar.classList.add('open')
+    setSideBarOpen(!sideBarOpen);
+    const sidebar = document.querySelector(".sidebar");
+    console.log(sidebar);
+    if (sideBarOpen) {
+      sidebar.classList.remove("open");
+    } else {
+      sidebar.classList.add("open");
     }
-  }
+  };
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
@@ -69,57 +70,71 @@ export default function Header() {
                 className="nav-item"
                 onClick={() => setCurrentLink("/#home-section")}
               >
-                <a
-                  className={`nav-link ${
-                    currentLink == "/#home-section" ? "active" : ""
-                  }`}
-                  aria-current="page"
-                  href="#home-section"
-                >
-                  <span>Home</span>
-                </a>
+                <Link href="#home-section">
+                  <a
+                    className={`nav-link ${
+                      currentLink == "/#home-section" ? "active" : ""
+                    }`}
+                    aria-current="page"
+                  >
+                    <span>Home</span>
+                  </a>
+                </Link>
               </li>
               <li
                 className="nav-item"
                 onClick={() => setCurrentLink("/#about-section")}
               >
-                <a
-                  className={`nav-link ${
-                    currentLink == "/#about-section" ? "active" : ""
-                  }`}
-                  href="#about-section"
-                >
-                  <span>About</span>
-                </a>
+                <Link href="#about-section">
+                  <a
+                    className={`nav-link ${
+                      currentLink == "/#about-section" ? "active" : ""
+                    }`}
+                  >
+                    <span>About</span>
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <span>Projects</span>
-                </a>
+                <Link href="#">
+                  <a className="nav-link">
+                    <span>Projects</span>
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <span>Blogs</span>
-                </a>
+                <Link href="#">
+                  <a className="nav-link">
+                    <span>Blogs</span>
+                  </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <span>Contact</span>
-                </a>
+                <Link href="#">
+                  <a className="nav-link">
+                    <span>Contact</span>
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
         ) : (
           <div className="d-flex">
             {!sideBarOpen ? (
-              <span style={{fontSize:'20px', color:'black'}} onClick={handleSideBarOpen}>
+              <span
+                style={{ fontSize: "20px", color: "black" }}
+                onClick={handleSideBarOpen}
+              >
                 <AiOutlineAlignRight />
-                <SideBar/>
+                <SideBar />
               </span>
             ) : (
-              <span style={{fontSize:'20px', color:'black'}} onClick={handleSideBarOpen}>
+              <span
+                style={{ fontSize: "20px", color: "black" }}
+                onClick={handleSideBarOpen}
+              >
                 <AiOutlineClose />
-                <SideBar/>
+                <SideBar />
               </span>
             )}
           </div>
