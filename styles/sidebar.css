@@ -1,0 +1,17 @@
+.sidebar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width:0px;
+    background: #fff;
+    opacity: 0;
+    height: 100vh;
+    padding: 15px;
+    border-right: 1px solid #3e64ff;
+    transition: all 0.5s ease-out;
+}
+
+.open{
+    width: 50%;
+    opacity: 1 !important;
+}

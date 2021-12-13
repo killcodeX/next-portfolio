@@ -14,9 +14,7 @@ export default function HomeSection() {
             <div className='mouse'>
                 <div className='mouse-icon'>
                     <div className='mouse-wheel'>
-                        <span>
                         <AiOutlineThunderbolt/>
-                        </span>
                     </div>
                 </div>
             </div>
