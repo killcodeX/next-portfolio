@@ -12,3 +12,8 @@ body {
     color: #999999;
     position: relative;
 }
+
+.section{
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
