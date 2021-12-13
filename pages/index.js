@@ -15,10 +15,6 @@ export default function Home() {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link
-          href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
-          rel="stylesheet"
-        />
-        <link
           href="css/A.open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+flaticon.css+icomoon.css+style.css,Mcc.03G1SaxbUZ.css.pagespeed.cf.JAwvIMOowk.css"
           rel="stylesheet"
         />
