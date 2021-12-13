@@ -49,9 +49,9 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
       <div className="container">
-        <a className="navbar-brand" href="/">
-          Aaquib
-        </a>
+        <Link href="/">
+          <a className="navbar-brand">Aaquib</a>
+        </Link>
         {width > 650 ? (
           <div className="d-flex flex-row-reverse collapse navbar-collapse px-5">
             <ul className="navbar-nav nav ml-auto d-flex align-items-center">
