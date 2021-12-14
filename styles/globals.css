@@ -16,8 +16,7 @@ body {
 }
 
 .section{
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding: 7em 0;
 }
 
 a{

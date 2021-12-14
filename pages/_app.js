@@ -4,6 +4,8 @@ import '../styles/header.css';
 import '../styles/sidebar.css';
 import '../styles/home.css';
 import '../styles/about.css';
+import '../styles/skills.css';
+import '../styles/resume.css';
 import '../styles/footer.css';
 import { ThemeProvider } from "next-themes";
 
