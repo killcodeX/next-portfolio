@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import Header from "../components/Header/";
 import HomeSection from "../components/Home";
 import About from "../components/About";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -28,8 +29,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <HomeSection />
-      <About />
+      <main>
+        <HomeSection />
+        <About />
+      </main>
+      <Footer />
     </>
   );
 }

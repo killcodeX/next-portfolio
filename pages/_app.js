@@ -3,6 +3,7 @@ import '../styles/header.css';
 import '../styles/sidebar.css';
 import '../styles/home.css';
 import '../styles/about.css';
+import '../styles/footer.css';
 import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
