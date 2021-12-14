@@ -10,7 +10,7 @@ export default function About() {
         <div className="row d-flex no-gutters">
           <div className="col-md-6 col-lg-6 img-column">
             <div className="unset-img img-about">
-              <Image src={"/me.jpeg"} layout="fill" className="custom-img" />
+              <Image src={"/me.jpeg"} alt='aaquib ahmed' layout="fill" className="custom-img" />
             </div>
           </div>
           <div className="col-md-6 col-lg-6 pl-md-5 py-5">

@@ -55,9 +55,9 @@ export default function HomeSection() {
             <div className="text text-center">
               <span className="subheading">Hey! I am</span>
               <h1 className="heading">Aaquib Ahmed</h1>
-              <div class="intro">
+              <div className="intro">
                 <h4>I am a</h4>
-                <h4 class="typing">hi</h4>
+                <h4 className="typing">hi</h4>
               </div>
             </div>
           </div>
