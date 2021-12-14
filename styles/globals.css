@@ -19,3 +19,17 @@ body {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
 }
+
+.unset-img {
+  width: 100%;
+  position: relative !important;
+}
+.unset-img > div {
+  position: unset !important;
+}
+
+.custom-img {
+  object-fit: contain;
+  width: 100% !important;
+  height: unset !important;
+}

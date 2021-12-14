@@ -41,7 +41,7 @@ export default function HomeSection() {
 
   return (
     <section
-      style={{ height: "700px" }}
+      style={{ height: "100vh" }}
       className="section py-5 hero-wrap"
       id="home-section"
     >
