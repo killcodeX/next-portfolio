@@ -1,4 +1,6 @@
+import React,{ useEffect } from "react";
 import Head from "next/head";
+import AOS from 'aos';
 import { useRouter } from "next/router";
 import Header from "../components/Header/";
 import HomeSection from "../components/Home";
@@ -6,6 +8,15 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({
+      offset: 300,
+      delay: 0,
+      duration: 800,
+      easing: 'slide',
+    })
+  }, [])
   return (
     <>
       <Head>

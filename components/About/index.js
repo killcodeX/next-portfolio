@@ -15,7 +15,7 @@ export default function About() {
           </div>
           <div className="col-md-6 col-lg-6 pl-md-5 py-5">
             <div className="row justify-content-start pb-3">
-              <div className="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">
+              <div className="col-md-12 heading-section ftco-animate fadeInUp ftco-animated" data-aos="fade-up">
                 <h2 className="mb-4">About Me</h2>
                 <p>
                   Hi 👋 Everyone, I am a frontend engineer with 2 years of

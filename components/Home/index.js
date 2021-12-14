@@ -52,7 +52,7 @@ export default function HomeSection() {
           className="row no-gutters justify-content-center align-items-center"
         >
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
-            <div className="text text-center">
+            <div className="text text-center" data-aos="fade-up">
               <span className="subheading">Hey! I am</span>
               <h1 className="heading">Aaquib Ahmed</h1>
               <div className="intro">
@@ -62,7 +62,7 @@ export default function HomeSection() {
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
-              <div className='loftiplayer'>
+              <div className='loftiplayer' data-aos="fade-up">
                 <Lottie options={defaultOptions} />
             </div>
           </div>

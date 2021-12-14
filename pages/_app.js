@@ -1,3 +1,4 @@
+import 'aos/dist/aos.css';
 import "../styles/globals.css";
 import '../styles/header.css';
 import '../styles/sidebar.css';
