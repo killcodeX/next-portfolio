@@ -1,0 +1,48 @@
+.img-column{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-about{
+    width:500px;
+    height: 500px;
+}
+.heading-section h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+ul.about-info li span:first-child {
+    font-weight: 600;
+    color: #000000;
+    width: 130px;
+}
+
+.about-social{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    color: black;
+    font-size: 30px;
+}
+
+@media (max-width:480px){
+    .img-column{
+        justify-content: center;
+    }
+    .img-about{
+        width: 200px;
+        height: 200px;
+    }
+
+    .heading-section{
+        padding: 0 30px;
+    }
+
+    .mobile-row-reverse{
+        flex-direction: column-reverse;
+    }
+}
