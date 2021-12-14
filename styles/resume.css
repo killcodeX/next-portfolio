@@ -12,6 +12,16 @@
     margin-bottom: 10px;
 }
 
+#navi li a{
+    color: #000000;
+}
+
+#navi li a.current {
+    color: #3e64ff;
+    margin-left: 20px;
+    position: relative;
+}
+
 .page{
     width: 100%;
     margin-bottom: 7em;

@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import Experience from "./experience";
 import Education from "./education";
 
 export default function Resume() {
+  const router = useRouter();
+
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  }, [])
+
+  const isSticky = (e) => {
+    console.log(router)
+  };
+
+
   return (
     <section className="section position-relative">
       <div className="container">
@@ -12,12 +27,12 @@ export default function Resume() {
             <nav id="navi">
               <ul>
                 <li>
-                  <Link href="/resume1">
+                  <Link href="#resume1">
                     <a>Experience</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/resume2">
+                  <Link href="#resume2">
                     <a>Education</a>
                   </Link>
                 </li>
