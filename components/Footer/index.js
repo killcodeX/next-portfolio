@@ -86,7 +86,6 @@ const services = [
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  console.log(PageLinks);
   return (
     <footer className="section footer-bg">
       <div className="container">

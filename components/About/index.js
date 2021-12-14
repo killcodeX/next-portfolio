@@ -5,7 +5,7 @@ import { FiInstagram, FiLinkedin, FiTwitter, FiGithub, FiLayers, FiEdit2 } from 
 
 export default function About() {
   return (
-    <section className="section" style={{ height: "100vh" }} id="about-section">
+    <section className="section" id="about-section">
       <div className="container">
         <div className="row mobile-row-reverse d-flex no-gutters">
           <div className="col-md-6 col-lg-6 img-column">
