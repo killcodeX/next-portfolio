@@ -5,11 +5,11 @@ import Education from "./education";
 
 export default function Resume() {
   return (
-    <section className="section">
+    <section className="section position-relative">
       <div className="container">
         <div className="row">
-          <div className="col-sm-3">
-            <nav className="navi">
+          <div className="col-sm-2">
+            <nav id="navi">
               <ul>
                 <li>
                   <Link href="/resume1">
@@ -24,7 +24,7 @@ export default function Resume() {
               </ul>
             </nav>
           </div>
-          <div className="col-sm-9">
+          <div className="col-sm-10">
             <div className='page one' id='resume1'>
                 <h2>Experience</h2>
                 <Experience/>
