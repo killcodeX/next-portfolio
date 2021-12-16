@@ -1,0 +1,149 @@
+#skill-section {
+  position: relative;
+  z-index: 0;
+  background:url('/dots.svg');
+}
+ 
+#skill-section h2{
+  text-align: center;
+}
+
+
+/* .skills-height {
+  height: 320px;
+} */
+
+.skill-icons {
+  font-size: 7em;
+  color: #3e64ff !important;
+}
+
+.parallax-outer {
+  z-index: -1;
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+.parallax-inner{
+  
+}
+
+.parallax-inner span {
+  position: absolute;
+  font-weight: 900;
+  user-select: none;
+  color: brown;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.skill-1 {
+  top: 50px;
+  left: 90%;
+  font-size: 2em;
+}
+
+.skill-2{
+    top: 0px;
+    left: 0px;
+    font-size: 2em;
+}
+
+.skill-3{
+    top: 200px;
+    left: -60px;
+    font-size: 4em;
+}
+
+.skill-4{
+    top: 30%;
+    left: 35%;
+    font-size: 2.5em;
+}
+
+.skill-5{
+    top: 40px;
+    left: 75%;
+    font-size: 5em;
+}
+
+.skill-6{
+    top: 380px;
+    left: 85%;
+    font-size: 18px;
+}
+
+.skill-7{
+    top: 320px;
+    left: 65%;
+    font-size: 18px;
+}
+
+.skill-8{
+    top: 350px;
+    left: 150px;
+    font-size: 20px;
+}
+
+.skill-9{
+    top: 120px;
+    left: 22%;
+    font-size: 12px;
+}
+
+
+@media (max-width: 480px){
+  .skill-1 {
+    top: 50px;
+    left: 70%;
+    font-size: 2em;
+  }
+  
+  .skill-2{
+      top: 25px;
+      left: 0px;
+      font-size: 2em;
+  }
+  
+  .skill-3{
+      top: 200px;
+      left: -60px;
+      font-size: 4em;
+  }
+  
+  .skill-4{
+      top: 30%;
+      left: 35%;
+      font-size: 2.5em;
+  }
+  
+  .skill-5{
+      top: 740px;
+      left: 75%;
+      font-size: 5em;
+  }
+  
+  .skill-6{
+      top: 380px;
+      left: 85%;
+      font-size: 18px;
+  }
+  
+  .skill-7{
+      top: 480px;
+      left: 34%;
+      font-size: 18px;
+  }
+  
+  .skill-8{
+      top: 650px;
+      left: 100px;
+      font-size: 20px;
+  }
+  
+  .skill-9{
+      top: 120px;
+      left: 22%;
+      font-size: 12px;
+  }
+}

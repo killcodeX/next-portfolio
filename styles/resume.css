@@ -1,3 +1,7 @@
+#resume-section .resume-heading{
+    text-align: center;
+}
+
 #navi{
     top: 180px;
     position: -webkit-sticky;

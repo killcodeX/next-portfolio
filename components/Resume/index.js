@@ -15,12 +15,13 @@ export default function Resume() {
   }, [])
 
   const isSticky = (e) => {
-    console.log(router)
+
   };
 
 
   return (
-    <section className="section position-relative">
+    <section className="section heading-section position-relative" id='resume-section'>
+      <h2 className='mb-5 resume-heading'>Resume</h2>
       <div className="container">
         <div className="row">
           <div className="col-sm-2">
