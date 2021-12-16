@@ -7,6 +7,9 @@ import HomeSection from "../components/Home";
 import About from "../components/About";
 import Skills from "../components/skills";
 import Resume from "../components/Resume";
+import Projects from "../components/Projects";
+import Blogs from "../components/Blogs";
+import Contacts from "../components/Contacts";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -46,6 +49,9 @@ export default function Home() {
         <About />
         <Skills/>
         <Resume />
+        <Projects/>
+        <Blogs/>
+        <Contacts/>
       </main>
       <Footer />
     </>

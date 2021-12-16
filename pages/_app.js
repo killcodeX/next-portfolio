@@ -6,6 +6,9 @@ import '../styles/home.css';
 import '../styles/about.css';
 import '../styles/skills.css';
 import '../styles/resume.css';
+import '../styles/projects.css';
+import '../styles/blogs.css';
+import '../styles/contacts.css';
 import '../styles/footer.css';
 import { ThemeProvider } from "next-themes";
 
