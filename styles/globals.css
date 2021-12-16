@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   font-family: "Poppins", Arial, sans-serif;
@@ -13,6 +17,7 @@ body {
     font-weight: 400;
     color: #999999;
     position: relative;
+
 }
 
 .section{

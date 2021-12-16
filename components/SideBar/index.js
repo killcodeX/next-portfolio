@@ -55,26 +55,40 @@ export default function Sidebar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="#">
-              <a className="nav-link">
-                <span>Projects</span>
-              </a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="#">
-              <a className="nav-link">
-                <span>Blogs</span>
-              </a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="#">
-              <a className="nav-link">
-                <span>Contact</span>
-              </a>
-            </Link>
-          </li>
+                <Link href="#skill-section">
+                  <a className="nav-link">
+                    <span>Skills</span>
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="#resume-section">
+                  <a className="nav-link">
+                    <span>Resume</span>
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="#project-section">
+                  <a className="nav-link">
+                    <span>Projects</span>
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="#blog-section">
+                  <a className="nav-link">
+                    <span>Blogs</span>
+                  </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link href="#contact-section">
+                  <a className="nav-link">
+                    <span>Contact</span>
+                  </a>
+                </Link>
+              </li>
         </ul>
       </div>
     </div>
