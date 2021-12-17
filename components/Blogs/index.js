@@ -45,23 +45,25 @@ export default function Blogs() {
           {blogs.map((item) => {
             return (
               <div className="col-md-3 col-sm-12" key={item.id}>
-                <Link href={item.link}>
-                  <a target="_blank">
-                    <div className="unset-img img-blog">
-                      <Image
-                        src={item.image}
-                        alt={item.title}
-                        layout="fill"
-                        className="custom-img"
-                      />
+                <div className="px-2">
+                  <Link href={item.link}>
+                    <a target="_blank">
+                      <div className="unset-img img-blog">
+                        <Image
+                          src={item.image}
+                          alt={item.title}
+                          layout="fill"
+                          className="custom-img"
+                        />
+                      </div>
+                    </a>
+                  </Link>
+                  <div className="text mt-3 float-right d-block">
+                    <div className="d-flex align-items-center mb-3 meta">
+                      <span className="mr-2">{item.published}</span>
                     </div>
-                  </a>
-                </Link>
-                <div className="text mt-3 float-right d-block">
-                  <div className="d-flex align-items-center mb-3 meta">
-                    <span className="mr-2">{item.published}</span>
+                    <p>{item.desc}</p>
                   </div>
-                  <p>{item.desc}</p>
                 </div>
               </div>
             );
