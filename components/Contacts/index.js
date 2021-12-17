@@ -6,9 +6,12 @@ export default function Contacts() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
       e.preventDefault();
     alert('Message Sent :)')
+    setName('')
+    setEmail('')
+    setMessage('')
   };
 
   return (
@@ -26,7 +29,7 @@ export default function Contacts() {
                   id="name"
                   value={name}
                   aria-describedby="name"
-                  onChange={() => setName(e.target.value)}
+                  onChange={(e) => setName(e.target.value)}
                 />
               </div>
               <div className="mb-3">
@@ -37,7 +40,7 @@ export default function Contacts() {
                   id="email"
                   value={email}
                   aria-describedby="emailHelp"
-                  onChange={() => setEmail(e.target.value)}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
                 <div id="emailHelp" className="form-text">
                   {"I'll never share your email with anyone else."}
@@ -51,7 +54,7 @@ export default function Contacts() {
                   id="message"
                   value={message}
                   aria-describedby="emailHelp"
-                  onChange={() => setMessage(e.target.value)}
+                  onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
               <button type='submit' className='contact-btn'>Send Message</button>
