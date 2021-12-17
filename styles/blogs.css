@@ -6,7 +6,11 @@
     color: #3e64ff;
 }
 
+.blog-card{
+    width: 300px;
+}
+
 .img-blog {
-    width: 260px;
+    width: 100%;
     height: 260px;
   }

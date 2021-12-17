@@ -44,8 +44,8 @@ export default function Blogs() {
         <div className="row pt-5">
           {blogs.map((item) => {
             return (
-              <div className="col-md-3 col-sm-12" key={item.id}>
-                <div className="px-2">
+              <div className="col-md-3 col-sm-12 mb-5" key={item.id}>
+                <div className="blog-card">
                   <Link href={item.link}>
                     <a target="_blank">
                       <div className="unset-img img-blog">
@@ -58,11 +58,13 @@ export default function Blogs() {
                       </div>
                     </a>
                   </Link>
-                  <div className="text mt-3 float-right d-block">
-                    <div className="d-flex align-items-center mb-3 meta">
-                      <span className="mr-2">{item.published}</span>
+                  <div className="py-2 px-4">
+                    <div className="text mt-3 float-right d-block">
+                      <div className="d-flex align-items-center mb-3 meta">
+                        <span className="mr-2">{item.published}</span>
+                      </div>
+                      <p>{item.desc}</p>
                     </div>
-                    <p>{item.desc}</p>
                   </div>
                 </div>
               </div>
