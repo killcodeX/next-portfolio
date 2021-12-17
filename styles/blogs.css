@@ -1,3 +1,12 @@
 #blog-section h2{
     text-align: center;
 }
+
+.meta span{
+    color: #3e64ff;
+}
+
+.img-blog {
+    width: 300px;
+    height: 300px;
+  }
