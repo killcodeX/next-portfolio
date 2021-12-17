@@ -22,7 +22,7 @@ export default function Contacts() {
                 <input
                   placeholder="Full Name"
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="name"
                   value={name}
                   aria-describedby="name"
@@ -33,21 +33,21 @@ export default function Contacts() {
                 <input
                   placeholder="Email Address"
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="email"
                   value={email}
                   aria-describedby="emailHelp"
                   onChange={() => setEmail(e.target.value)}
                 />
-                <div id="emailHelp" class="form-text">
-                  I'll never share your email with anyone else.
+                <div id="emailHelp" className="form-text">
+                  {"I'll never share your email with anyone else."}
                 </div>
               </div>
               <div className="mb-3">
                 <input
                   placeholder="Your Message"
                   type="textarea"
-                  class="form-control"
+                  className="form-control"
                   id="message"
                   value={message}
                   aria-describedby="emailHelp"
