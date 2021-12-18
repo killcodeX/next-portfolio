@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Project1() {
   return (
-    <div className="row mobile-row-reverse mb-5">
+    <div className="row py-5 px-2 mobile-row-reverse mb-5">
       <div className="col-lg-6 mb-4 mb-lg-0">
         <div className="unset-img img-project">
           <Image
