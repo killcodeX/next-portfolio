@@ -13,4 +13,17 @@
 .img-blog {
     width: 100%;
     height: 260px;
-  }
+}
+
+.btn-more-blog{
+    width: 180px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #3e64ff;
+    color: #3e64ff;
+}
+
+.btn-more-blog:hover{
+    background: #3e64ff;
+    color: #fff;
+}

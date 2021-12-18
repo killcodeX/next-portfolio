@@ -71,6 +71,13 @@ export default function Blogs() {
             );
           })}
         </div>
+        <div className="text-center">
+          <Link href="https://www.devcript.com/author/aaquib/">
+            <a target='_blank'>
+              <button className="btn-more-blog">Read More</button>
+            </a>
+          </Link>
+        </div>
       </div>
     </section>
   );
