@@ -14,6 +14,23 @@
   top: 7em;
 }
 
+.jm-sticky-top h3{
+  color: black;
+}
+
+.jm-sticky-top h5{
+  color: #3e64ff !important;
+}
+
+.stacks{
+  list-style: none;
+}
+
+.text-black{
+  padding-right: 10px;
+  color: black !important;
+}
+
 .readmore {
   position: relative;
   padding-right: 20px;

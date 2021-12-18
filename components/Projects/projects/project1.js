@@ -58,17 +58,64 @@ export default function Project1() {
       <div className="col-lg-5 h-100 jm-sticky-top ml-auto">
         <h3>Hotel In</h3>
         <p className="mb-4">
-          A small river named Duden flows by their place and supplies it with
-          the necessary regelialia. It is a paradisematic country, in which
-          roasted parts of sentences fly into your mouth.
+          The Hotel In app is a hotel booking web app, where users can browse
+          different hotels by city, filter them according to price or rating,
+          view single hotels, and book them.
+        </p>
+        <h5>Tech Stack</h5>
+        <ul className="stacks">
+          <li>
+            <strong className="text-black">Frontned:</strong> Reactjs
+          </li>
+          <li>
+            <strong className="text-black">Styling:</strong> Styled Components,
+            Ant Design and CSS
+          </li>
+          <li>
+            <strong className="text-black">Payment Gateway:</strong> Razorpay
+          </li>
+          <li>
+            <strong className="text-black">
+              Authentication and Authorisation:
+            </strong>{" "}
+            JWT and ByCryptJS
+          </li>
+          <li>
+            <strong className="text-black">Backend: </strong> Node and Express
+            js
+          </li>
+          <li>
+            <strong className="text-black">Database:</strong> MongoDB
+          </li>
+        </ul>
+        <h5>Overall Functionlity</h5>
+        <ul>
+          <li>
+            Main Landing Listing Page with search form, Descriptions, Cities and
+            Few hotels
+          </li>
+          <li>Viewing Hotels by search or selecting cities</li>
+          <li>Filtering Hotels by Price or rating parameter</li>
+          <li>Viewing single hotel with full description and booking hotel</li>
+          <li>Getting Reservation details fot booking hotel</li>
+          <li>
+            User can only booked hotel or see their history if ony they are
+            logged in !!
+          </li>
+          <li>Booking Hotel through Razorpay test mode payment simulation</li>
+          <li>
+            Going to my booking page to see history of your booking, all
+            upcoming, cancelled or completed trips.
+          </li>
+        </ul>
+        <p className="mb-2">
+          <Link href="https://github.com/killcodeX/mern-hotelin">
+            <a target='_blank' className="readmore">Visit Github</a>
+          </Link>
         </p>
         <p>
-          <strong className="text-black">Role:</strong> Design, Illustration,
-          Web
-        </p>
-        <p className="mb-4">
-          <Link href="#">
-            <a className="readmore">Visit Website</a>
+          <Link href="https://hotelin.netlify.app">
+            <a target='_blank' className="readmore">Visit Website</a>
           </Link>
         </p>
       </div>
