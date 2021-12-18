@@ -55,7 +55,7 @@ export default function Header() {
         {width > 650 ? (
           <div className="d-flex flex-row-reverse collapse navbar-collapse px-5">
             <ul className="navbar-nav nav ml-auto d-flex align-items-center">
-              <li
+              {/* <li
                 className="nav-item"
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
@@ -65,7 +65,7 @@ export default function Header() {
                   ) : (
                     <span className="nav-link">🌙</span>
                   ))}
-              </li>
+              </li> */}
               <li
                 className="nav-item"
                 onClick={() => setCurrentLink("/#home-section")}

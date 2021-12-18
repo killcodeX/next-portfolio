@@ -15,7 +15,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      offset: 300,
+      offset: 100,
       delay: 0,
       duration: 800,
       easing: "slide",
