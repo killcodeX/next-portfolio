@@ -1,11 +1,22 @@
-import React, { useEffect } from "react";
-import { useRouter } from "next/router";
+import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import Experience from "./experience";
 import Education from "./education";
 
 export default function Resume() {
-  const router = useRouter();
+  const ref1 = useRef();
+  const ref2 = useRef();
+
+  function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    console.log(rect)
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
 
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
