@@ -27,7 +27,7 @@
   transition: transform 300ms ease-in-out;
 }
 
-.parallax-inner span {
+.custom-class span{
   position: absolute;
   font-weight: 900;
   user-select: none;
@@ -87,7 +87,7 @@
 .skill-9{
     top: 120px;
     left: 22%;
-    font-size: 7em;
+    font-size: 2em;
 }
 
 

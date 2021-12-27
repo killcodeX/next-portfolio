@@ -29,6 +29,14 @@ ul.about-info li span:first-child {
   font-size: 30px;
 }
 
+.about-social a{
+  transition: transform 0.5s ease-in;
+}
+
+.about-social a:hover{
+  transform: scale(1.5);
+}
+
 @media (max-width: 480px) {
   .heading-section h2 {
     font-size: 38px;

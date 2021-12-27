@@ -9,19 +9,20 @@ import {
   DiMongodb,
   DiPhotoshop,
   DiPython,
-  DiSass
+  DiSass,
+  DiGit
 } from "react-icons/di";
 
 export default function Skills() {
   return (
     <section className="section heading-section" id="skill-section">
       <h2 className="mb-4">Skills</h2>
-      <Parallax offsetYMin={0} offsetYMax={20}>
+      <Parallax className="custom-class" y={[-60, 60]}>
         <span className="skill-1">
           <DiBootstrap />
         </span>
         <span className="skill-2">
-          <DiMongodb />
+          nextjs
         </span>
         <span className="skill-3">
           <DiPhotoshop />
@@ -36,8 +37,10 @@ export default function Skills() {
         <span className="skill-7">
           <DiMongodb />
         </span>
-        <span className="skill-8">8</span>
-        <span className="skill-9">9</span>
+        <span className="skill-8">
+          <DiGit/>
+        </span>
+        <span className="skill-9">express</span>
       </Parallax>
       <div className="container">
         <div className="row skills-height">
