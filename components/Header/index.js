@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import useWindowWidth from "../../helpers/useWindowSize";
@@ -49,9 +50,14 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
       <div className="container">
-        <Link href="/">
-          <a className="navbar-brand">Aaquib Ahmed</a>
-        </Link>
+        <div className="unset-img img-logo">
+          <Image
+            src="/logo.png"
+            alt="hotelin project screenshots"
+            layout="fill"
+            className="custom-img"
+          />
+        </div>
         {width > 650 ? (
           <div className="d-flex flex-row-reverse collapse navbar-collapse px-5">
             <ul className="navbar-nav nav ml-auto d-flex align-items-center">
