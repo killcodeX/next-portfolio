@@ -5,13 +5,14 @@ import { useRouter } from "next/router";
 import useWindowWidth from "../../helpers/useWindowSize";
 import { AiOutlineAlignRight, AiOutlineClose } from "react-icons/ai";
 import SideBar from "../SideBar";
+import Education from "../Resume/education";
 
 export default function Header() {
   const router = useRouter();
   const [sideBarOpen, setSideBarOpen] = useState(false);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  const [currentLink, setCurrentLink] = useState("");
+  const [currentSection, setCurrentSection] = useState(10);
   const width = useWindowWidth();
 
   useEffect(() => {
@@ -28,7 +29,6 @@ export default function Header() {
     if (scrollTop > 150) {
       header.classList.add("navbar-portfolio-scroll");
       header.classList.remove("navbar-portfolio");
-      setCurrentLink(router.asPath);
     } else {
       header.classList.add("navbar-portfolio");
       header.classList.remove("navbar-portfolio-scroll");
@@ -50,47 +50,21 @@ export default function Header() {
     <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
       <div className="container">
         <Link href="/">
-          <a className="navbar-brand">Aaquib</a>
+          <a className="navbar-brand">Aaquib Ahmed</a>
         </Link>
         {width > 650 ? (
           <div className="d-flex flex-row-reverse collapse navbar-collapse px-5">
             <ul className="navbar-nav nav ml-auto d-flex align-items-center">
-              {/* <li
-                className="nav-item"
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              >
-                {mounted &&
-                  (theme === "dark" ? (
-                    <span className="nav-link">🌞</span>
-                  ) : (
-                    <span className="nav-link">🌙</span>
-                  ))}
-              </li> */}
-              <li
-                className="nav-item"
-                onClick={() => setCurrentLink("/#home-section")}
-              >
+              <li className="nav-item">
                 <Link href="#home-section">
-                  <a
-                    className={`nav-link ${
-                      currentLink == "/#home-section" ? "active" : ""
-                    }`}
-                    aria-current="page"
-                  >
+                  <a className="nav-link" aria-current="page">
                     <span>Home</span>
                   </a>
                 </Link>
               </li>
-              <li
-                className="nav-item"
-                onClick={() => setCurrentLink("/#about-section")}
-              >
+              <li className="nav-item">
                 <Link href="#about-section">
-                  <a
-                    className={`nav-link ${
-                      currentLink == "/#about-section" ? "active" : ""
-                    }`}
-                  >
+                  <a className="nav-link">
                     <span>About</span>
                   </a>
                 </Link>
@@ -156,4 +130,18 @@ export default function Header() {
       </div>
     </nav>
   );
+}
+
+{
+  /* <li
+      className="nav-item"
+      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+    >
+      {mounted &&
+        (theme === "dark" ? (
+          <span className="nav-link">🌞</span>
+        ) : (
+          <span className="nav-link">🌙</span>
+        ))}
+    </li> */
 }

@@ -10,8 +10,9 @@ import {
   DiPhotoshop,
   DiPython,
   DiSass,
-  DiGit
+  DiGit,
 } from "react-icons/di";
+import { SiTypescript, SiNextdotjs, SiWordpress, SiAntdesign, SiBulma } from "react-icons/si";
 
 export default function Skills() {
   return (
@@ -22,25 +23,36 @@ export default function Skills() {
           <DiBootstrap />
         </span>
         <span className="skill-2">
-          nextjs
+          <SiNextdotjs />
         </span>
         <span className="skill-3">
           <DiPhotoshop />
         </span>
         <span className="skill-4">
-          <DiPython/>
+          <DiPython />
         </span>
         <span className="skill-5">
-          <DiSass/>
+          <DiSass />
         </span>
-        <span className="skill-6">antd</span>
+        <span className="skill-6">
+          <SiAntdesign/>
+        </span>
         <span className="skill-7">
           <DiMongodb />
         </span>
         <span className="skill-8">
-          <DiGit/>
+          <DiGit />
         </span>
         <span className="skill-9">express</span>
+        <span className="skill-10">
+          <SiTypescript />
+        </span>
+        <span className="skill-11">
+          <SiWordpress />
+        </span>
+        <span className="skill-12">
+          <SiBulma/>
+        </span>
       </Parallax>
       <div className="container">
         <div className="row skills-height">

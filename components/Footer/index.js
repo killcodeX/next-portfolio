@@ -9,6 +9,7 @@ import {
   FiHome,
   FiArrowRight,
 } from "react-icons/fi";
+import { SiBlogger } from "react-icons/si";
 
 const socicalMedia = [
   {
@@ -166,7 +167,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <span className="icon icon-map-marker">
-                      <AiFillFileMarkdown />
+                      <SiBlogger />
                     </span>
 
                     <span className="text">Devcript</span>

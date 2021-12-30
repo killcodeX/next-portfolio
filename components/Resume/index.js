@@ -8,12 +8,12 @@ export default function Resume() {
   const ref2 = useRef();
 
   function isInViewport(element) {
+    //console.log(element)
     const rect = element.getBoundingClientRect();
-    console.log(rect)
+    //console.log(rect)
     return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.top >= 188.765625 &&
+        // rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
@@ -26,7 +26,8 @@ export default function Resume() {
   }, [])
 
   const isSticky = (e) => {
-
+    const result = isInViewport(ref1.current)
+    //console.log(result)
   };
 
 
@@ -52,11 +53,11 @@ export default function Resume() {
             </nav>
           </div>
           <div className="col-sm-10">
-            <div className='page one' id='resume1'>
+            <div className='page one' id='resume1' ref={ref1}>
                 <h2>Experience</h2>
                 <Experience/>
             </div>
-            <div className='page one' id='resume2'>
+            <div className='page one' id='resume2' ref={ref2}>
                 <h2>Education</h2>
                 <Education/>
             </div>

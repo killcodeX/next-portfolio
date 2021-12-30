@@ -27,3 +27,9 @@
     background: #3e64ff;
     color: #fff;
 }
+
+@media(max-width:480px){
+    .btn-more-blog{
+        margin-bottom: 40px;
+    }
+}
