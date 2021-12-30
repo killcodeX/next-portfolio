@@ -2,13 +2,12 @@
   /* height: 500px; */
   position: relative;
   z-index: 0;
-  background:url('/dots.svg');
-}
- 
-#skill-section h2{
-  text-align: center;
+  background: url("/dots.svg");
 }
 
+#skill-section h2 {
+  text-align: center;
+}
 
 /* .skills-height {
   height: 320px;
@@ -27,7 +26,7 @@
   transition: transform 300ms ease-in-out;
 }
 
-.custom-class span{
+.custom-class span {
   position: absolute;
   font-weight: 900;
   user-select: none;
@@ -42,107 +41,139 @@
   font-size: 5em;
 }
 
-.skill-2{
-    top: -10px;
-    left: 2%;
-    font-size: 3em;
+.skill-2 {
+  top: -10px;
+  left: 2%;
+  font-size: 3em;
 }
 
-.skill-3{
-    top: 100px;
-    left: 10%;
+.skill-3 {
+  top: 100px;
+  left: 10%;
+  font-size: 4em;
+}
+
+.skill-4 {
+  top: 10%;
+  left: 35%;
+  font-size: 3em;
+}
+
+.skill-5 {
+  top: 40px;
+  left: 75%;
+  font-size: 5em;
+}
+
+.skill-6 {
+  top: 360px;
+  left: 90%;
+  font-size: 3em;
+}
+
+.skill-7 {
+  top: 225px;
+  left: 67%;
+  font-size: 7em;
+}
+
+.skill-8 {
+  top: 310px;
+  left: 220px;
+  font-size: 5em;
+}
+
+.skill-9 {
+  top: 120px;
+  left: 22%;
+  font-size: 2em;
+}
+
+.skill-10 {
+  left: 50%;
+  font-size: 3em;
+}
+
+.skill-11 {
+  top: 300px;
+  left: 5%;
+  font-size: 2em;
+}
+
+.skill-12 {
+  top: 310px;
+  left: 45%;
+  font-size: 3em;
+}
+
+@media (max-width: 480px) {
+  .skill-1 {
+    top: 37px;
+    left: 80%;
+    font-size: 2.5em;
+  }
+
+  .skill-2 {
+    top: 25px;
+    left: 0px;
+    font-size: 2em;
+  }
+
+  .skill-3 {
+    top: 200px;
+    left: -60px;
     font-size: 4em;
-}
+  }
 
-.skill-4{
-    top: 10%;
+  .skill-4 {
+    top: 30%;
     left: 35%;
-    font-size: 3em;
-}
+    font-size: 2.5em;
+  }
 
-.skill-5{
-    top: 40px;
+  .skill-5 {
+    top: 740px;
     left: 75%;
     font-size: 5em;
-}
+  }
 
-.skill-6{
-    top: 500px;
+  .skill-6 {
+    top: 380px;
     left: 85%;
-    font-size: 2em;
-}
+    font-size: 18px;
+  }
 
-.skill-7{
-    top: 320px;
-    left: 65%;
-    font-size: 8em;
-}
+  .skill-7 {
+    top: 480px;
+    left: 34%;
+    font-size: 3em;
+  }
 
-.skill-8{
-    top: 350px;
-    left: 150px;
-    font-size: 6em;
-}
+  .skill-8 {
+    top: 650px;
+    left: 100px;
+    font-size: 3em;
+  }
 
-.skill-9{
+  .skill-9 {
     top: 120px;
     left: 22%;
-    font-size: 2em;
-}
+    font-size: 12px;
+  }
 
-
-@media (max-width: 480px){
-  .skill-1 {
-    top: 50px;
+  .skill-10 {
+    top: 203px;
     left: 70%;
-    font-size: 2em;
   }
-  
-  .skill-2{
-      top: 25px;
-      left: 0px;
-      font-size: 2em;
+
+  .skill-11 {
+    top:460px;
+    left: 5%;
+    font-size: 2.5em;
   }
-  
-  .skill-3{
-      top: 200px;
-      left: -60px;
-      font-size: 4em;
-  }
-  
-  .skill-4{
-      top: 30%;
-      left: 35%;
-      font-size: 2.5em;
-  }
-  
-  .skill-5{
-      top: 740px;
-      left: 75%;
-      font-size: 5em;
-  }
-  
-  .skill-6{
-      top: 380px;
-      left: 85%;
-      font-size: 18px;
-  }
-  
-  .skill-7{
-      top: 480px;
-      left: 34%;
-      font-size: 18px;
-  }
-  
-  .skill-8{
-      top: 650px;
-      left: 100px;
-      font-size: 20px;
-  }
-  
-  .skill-9{
-      top: 120px;
-      left: 22%;
-      font-size: 12px;
+
+  .skill-12 {
+    left: 5%;
+    font-size: 2.5em;
   }
 }

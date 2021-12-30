@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import MultiTasking from "../../helpers/multi-tasking.json";
 import Lottie from "react-lottie";
-import { AiOutlineThunderbolt } from "react-icons/ai";
+import { SiApacherocketmq} from "react-icons/si";
 
 export default function HomeSection() {
   const defaultOptions = {
@@ -62,8 +62,8 @@ export default function HomeSection() {
             </div>
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
-              <div className='loftiplayer' data-aos="fade-up">
-                <Lottie options={defaultOptions} />
+            <div className="loftiplayer" data-aos="fade-up">
+              <Lottie options={defaultOptions} />
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function HomeSection() {
       <div className="mouse">
         <div className="mouse-icon">
           <div className="mouse-wheel">
-            <AiOutlineThunderbolt />
+            <SiApacherocketmq/>
           </div>
         </div>
       </div>

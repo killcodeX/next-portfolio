@@ -61,7 +61,11 @@
     background: transparent;
     font-size: 2rem;
     color:#3e64ff;
-    animation: 1.6s ease-in infinite wheel-up-down;
+    animation: 2.5s ease-out infinite wheel-up-down;
+}
+
+.mouse-wheel svg{
+    transform: rotate(180deg);
 }
 
 @keyframes wheel-up-down {

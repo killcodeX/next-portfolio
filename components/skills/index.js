@@ -1,5 +1,4 @@
 import React from "react";
-import { Parallax } from "react-scroll-parallax";
 import {
   DiBootstrap,
   DiJavascript1,
@@ -18,7 +17,7 @@ export default function Skills() {
   return (
     <section className="section heading-section" id="skill-section">
       <h2 className="mb-4">Skills</h2>
-      <Parallax className="custom-class" y={[-60, 60]}>
+      <div className="custom-class">
         <span className="skill-1">
           <DiBootstrap />
         </span>
@@ -53,7 +52,7 @@ export default function Skills() {
         <span className="skill-12">
           <SiBulma/>
         </span>
-      </Parallax>
+      </div>
       <div className="container">
         <div className="row skills-height">
           <div className="col-sm-3 d-flex justify-content-center align-items-center">
