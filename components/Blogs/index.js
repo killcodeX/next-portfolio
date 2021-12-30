@@ -41,7 +41,7 @@ export default function Blogs() {
     <section className="section heading-section" id="blog-section">
       <h2 className="mb-4">Blogs</h2>
       <div className="container">
-        <div className="row pt-5">
+        <div className="row pt-5 fadeInUp" data-aos="fade-up">
           {blogs.map((item) => {
             return (
               <div className="col-md-3 col-sm-12 mb-5" key={item.id}>

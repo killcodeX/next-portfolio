@@ -91,7 +91,7 @@ export default function Footer() {
     <footer className="section footer-bg">
       <div className="container">
         <div className="row mb-5">
-          <div className="col-md">
+          <div className="col-md fadeInUp" data-aos="fade-up">
             <div className="ftco-footer-widget mb-4">
               <div className="ftco-heading-2">About</div>
               <p>
@@ -103,6 +103,7 @@ export default function Footer() {
                   return (
                     <li
                       className="ftco-animate fadeInUp ftco-animated"
+                      data-aos="fade-up"
                       key={social.id}
                     >
                       <Link href={social.link}>
@@ -114,7 +115,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="col-md">
+          <div className="col-md fadeInUp" data-aos="fade-up">
             <div className="ftco-footer-widget mb-4">
               <div className="ftco-heading-2">Links</div>
               <ul className="list-unstyled">
@@ -135,7 +136,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="col-md">
+          <div className="col-md fadeInUp" data-aos="fade-up">
             <div className="ftco-footer-widget mb-4">
               <div className="ftco-heading-2">Services</div>
               <ul className="list-unstyled">
@@ -152,7 +153,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="col-md">
+          <div className="col-md fadeInUp" data-aos="fade-up">
             <div className="ftco-footer-widget mb-4">
               <div className="ftco-heading-2">Have a Questions?</div>
               <div className="block-23 mb-3">
