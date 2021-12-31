@@ -56,8 +56,8 @@ export default function Experience() {
                 <h2>{item.title}</h2>
                 <span className="resume-title">{item.name}</span>
                 <ul>
-                  {item.desc.map((item) => {
-                    return <li>{item}</li>;
+                  {item.desc.map((item, index) => {
+                    return <li key={index}>{item}</li>;
                   })}
                 </ul>
               </div>
