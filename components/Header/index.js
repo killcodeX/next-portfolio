@@ -52,7 +52,7 @@ export default function Header() {
       <div className="container">
         <div className="unset-img img-logo">
           <Image
-            src="/logo.png"
+            src="/s2.png"
             alt="hotelin project screenshots"
             layout="fill"
             className="custom-img"
