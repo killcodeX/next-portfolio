@@ -11,15 +11,12 @@ import "../styles/blogs.css";
 import "../styles/contacts.css";
 import "../styles/footer.css";
 import { ThemeProvider } from "next-themes";
-import { ParallaxProvider } from "react-scroll-parallax";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ParallaxProvider>
-      <ThemeProvider defaultTheme="light" attribute="class">
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </ParallaxProvider>
+    <ThemeProvider defaultTheme="light" attribute="class">
+      <Component {...pageProps} />
+    </ThemeProvider>
   );
 }
 
