@@ -26,6 +26,19 @@
     position: relative;
 }
 
+#navi li a.current::after {
+    position: absolute;
+    top: 50%;
+    left: -24px;
+    width: 20px;
+    height: 2px;
+    content: '';
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #3e64ff;
+}
+
 .page{
     width: 100%;
     margin-bottom: 7em;

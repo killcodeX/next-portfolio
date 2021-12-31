@@ -41,14 +41,14 @@ export default function Resume() {
               <ul>
                 <li>
                   <Link href="#resume1">
-                    <a>Experience</a>
+                    <a className="current">Experience</a>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="#resume2">
                     <a>Education</a>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
@@ -57,10 +57,10 @@ export default function Resume() {
                 <h2>Experience</h2>
                 <Experience/>
             </div>
-            <div className='page one' id='resume2' ref={ref2}>
+            {/* <div className='page one' id='resume2' ref={ref2}>
                 <h2>Education</h2>
                 <Education/>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -5,25 +5,25 @@ export default function Education() {
   const expTotal = [
     {
       id: 1,
-      year: "2014-2015",
-      title: "Bachelor of Science in Computer Science",
-      name: "Cambridge University",
+      year: "2016-2020",
+      title: "Electronics and Instrumentation Engineering",
+      name: "Bangalore Institute of Technology",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
     },
-    {
-      id: 2,
-      year: "2014-2015",
-      title: "Computer Processing Systems/Computer Software",
-      name: "Cambridge University",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
-    },
-    {
-      id: 3,
-      year: "2014-2015",
-      title: "Diploma in Computer",
-      name: "Cambridge University",
-      desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
-    },
+    // {
+    //   id: 2,
+    //   year: "2020-2021",
+    //   title: "SDE 1",
+    //   name: "Gobony",
+    //   desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+    // },
+    // {
+    //   id: 3,
+    //   year: "2019-2020",
+    //   title: "Diploma in Computer",
+    //   name: "Cambridge University",
+    //   desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.",
+    // },
   ];
 
   return (

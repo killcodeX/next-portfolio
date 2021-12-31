@@ -95,8 +95,8 @@ export default function Footer() {
             <div className="ftco-footer-widget mb-4">
               <div className="ftco-heading-2">About</div>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                Perhaps the most important lesson I have learned during my
+                tenure thus far in life is stepping out of my comfort zone.
               </p>
               <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 {socicalMedia.map((social) => {
@@ -107,7 +107,9 @@ export default function Footer() {
                       key={social.id}
                     >
                       <Link href={social.link}>
-                        <a target="_blank" rel="noreferrer">{social.icon}</a>
+                        <a target="_blank" rel="noreferrer">
+                          {social.icon}
+                        </a>
                       </Link>
                     </li>
                   );
@@ -158,14 +160,14 @@ export default function Footer() {
               <div className="ftco-heading-2">Have a Questions?</div>
               <div className="block-23 mb-3">
                 <ul className="list-unstyled">
-                  <li>
+                  {/* <li>
                     <span className="icon icon-map-marker">
                       <FiHome />
                     </span>
                     <span className="text">
                       203 Fake St. Mountain View, San Francisco, California, USA
                     </span>
-                  </li>
+                  </li> */}
                   <li>
                     <span className="icon icon-map-marker">
                       <SiBlogger />
