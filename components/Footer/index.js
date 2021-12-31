@@ -15,22 +15,22 @@ const socicalMedia = [
   {
     id: 1,
     icon: <FiLinkedin />,
-    link: "#",
+    link: "https://www.linkedin.com/in/aaquib-ahmed/",
   },
   {
     id: 2,
     icon: <FiTwitter />,
-    link: "#",
+    link: "https://twitter.com/thedevnextdoor",
   },
   {
     id: 3,
     icon: <FiGithub />,
-    link: "#",
+    link: "https://github.com/killcodeX",
   },
   {
     id: 4,
     icon: <FiEdit2 />,
-    link: "#",
+    link: "https://www.devcript.com/author/aaquib/",
   },
 ];
 
@@ -107,7 +107,7 @@ export default function Footer() {
                       key={social.id}
                     >
                       <Link href={social.link}>
-                        <a>{social.icon}</a>
+                        <a target="_blank" rel="noreferrer">{social.icon}</a>
                       </Link>
                     </li>
                   );

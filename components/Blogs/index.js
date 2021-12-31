@@ -47,7 +47,7 @@ export default function Blogs() {
               <div className="col-md-3 col-sm-12 mb-5" key={item.id}>
                 <div className="blog-card">
                   <Link href={item.link}>
-                    <a target="_blank">
+                    <a target="_blank" rel="noreferrer">
                       <div className="unset-img img-blog">
                         <Image
                           src={item.image}
@@ -72,7 +72,7 @@ export default function Blogs() {
           })}
           <div className="text-center">
             <Link href="https://www.devcript.com/author/aaquib/">
-              <a target="_blank">
+              <a target="_blank" rel="noreferrer">
                 <button className="btn-more-blog">Read More</button>
               </a>
             </Link>

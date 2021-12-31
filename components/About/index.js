@@ -39,43 +39,43 @@ export default function About() {
                 </ul>
                 <ul className="about-social mt-4 px-md-0 px-2">
                   <li>
-                    <Link href="#">
-                      <a>
+                    <Link href="https://www.instagram.com/the_devnextdoor/">
+                      <a target="_blank" rel="noreferrer">
                         <FiInstagram />
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>
+                    <Link href="https://www.linkedin.com/in/aaquib-ahmed/">
+                      <a target="_blank" rel="noreferrer">
                         <FiLinkedin />
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>
+                    <Link href="https://twitter.com/thedevnextdoor">
+                      <a target="_blank" rel="noreferrer">
                         <FiTwitter />
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>
+                    <Link href="https://github.com/killcodeX">
+                      <a target="_blank" rel="noreferrer">
                         <FiGithub />
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>
+                    <Link href="https://stackoverflow.com/users/12927822/aaquib">
+                      <a target="_blank" rel="noreferrer">
                         <FiLayers />
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
-                      <a>
+                    <Link href="https://www.devcript.com/author/aaquib/">
+                      <a target="_blank" rel="noreferrer">
                         <FiEdit2 />
                       </a>
                     </Link>
