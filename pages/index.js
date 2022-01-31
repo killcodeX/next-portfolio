@@ -61,7 +61,7 @@ export default function Home() {
           property="og:description"
           content="Aaquib Ahmed: A passionate self-taught frontEnd web developer, a wannapreneur, tech enthusiast, open source contributor (https://github.com/killcodeX) , tech blogger (https://www.devcript.com), writer, motivator and mentor for those who want to learn programming, development and recent technologies. Being an active part of many communities."
         />
-        <meta property="og:image" content={process.env.PUBLIC_URL +"/me.jpeg"} />
+        <meta property="og:image" content="https://github.com/killcodeX/next-portfolio/blob/main/public/me.jpeg" />
           {/* twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://aaquib.netlify.app/" />
@@ -73,7 +73,7 @@ export default function Home() {
           property="twitter:description"
           content="Aaquib Ahmed: A passionate self-taught frontEnd web developer, a wannapreneur, tech enthusiast, open source contributor (https://github.com/killcodeX) , tech blogger (https://www.devcript.com), writer, motivator and mentor for those who want to learn programming, development and recent technologies. Being an active part of many communities."
         />
-        <meta property="twitter:image" content={process.env.PUBLIC_URL +"/me.jpeg"} />
+        <meta property="twitter:image" content="https://github.com/killcodeX/next-portfolio/blob/main/public/me.jpeg"/>
       </Head>
       <Header />
       <main>
