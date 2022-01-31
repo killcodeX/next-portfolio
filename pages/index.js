@@ -34,13 +34,13 @@ export default function Home() {
         <meta property="og:url" content="https://aaquib.netlify.app/" />
         <meta property="og:title" content="Aaquib Ahmed | Software Engineer"/>
         <meta property="og:description" content="Aaquib Ahmed: A passionate self-taught frontEnd web developer, a wannapreneur, tech enthusiast, open source contributor (https://github.com/killcodeX) , tech blogger (https://www.devcript.com), writer, motivator and mentor for those who want to learn programming, development and recent technologies. Being an active part of many communities."/>
-        <meta property="og:image" content="https://github.com/killcodeX/next-portfolio/blob/main/public/metaimage.png"/>
+        <meta property="og:image" content="https://raw.githubusercontent.com/killcodeX/next-portfolio/main/public/metaimage.png"/>
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://aaquib.netlify.app/"/>
         <meta property="twitter:title" content="Aaquib Ahmed | Software Engineer"/>
         <meta property="twitter:description" content="Aaquib Ahmed: A passionate self-taught frontEnd web developer, a wannapreneur, tech enthusiast, open source contributor (https://github.com/killcodeX) , tech blogger (https://www.devcript.com), writer, motivator and mentor for those who want to learn programming, development and recent technologies. Being an active part of many communities."/>
-        <meta property="twitter:image" content="https://github.com/killcodeX/next-portfolio/blob/main/public/metaimage.png"/>
+        <meta property="twitter:image" content="https://raw.githubusercontent.com/killcodeX/next-portfolio/main/public/metaimage.png"/>
         <link rel="icon" href="/fav2.png" />
         <title>Aaquib Ahmed | Software Engineer</title>
       </Head>
