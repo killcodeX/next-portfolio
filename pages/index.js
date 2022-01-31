@@ -23,16 +23,13 @@ export default function Home() {
   return (
     <>
       <Head>
+        {/* primary */}
         <meta charSet="utf-8" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta name="author" content="Aaquib Ahmed, aaquib5076@gmail.com" />
-        <meta
-          name="description"
-          content="Aaquib Ahmed: A passionate self-taught frontEnd web developer, a wannapreneur, tech enthusiast, open source contributor (https://github.com/killcodeX) , tech blogger (https://www.devcript.com), writer, motivator and mentor for those who want to learn programming, development and recent technologies. Being an active part of many communities."
-        />
         <meta
           name="keywords"
           content="Aaquib Ahmed,Aaquib,Tech Enthusiast,Web Developer,Portfolio, React Developer, Front-End Developer"
@@ -64,8 +61,8 @@ export default function Home() {
           property="og:description"
           content="Aaquib Ahmed: A passionate self-taught frontEnd web developer, a wannapreneur, tech enthusiast, open source contributor (https://github.com/killcodeX) , tech blogger (https://www.devcript.com), writer, motivator and mentor for those who want to learn programming, development and recent technologies. Being an active part of many communities."
         />
-        <meta property="og:image" content="/me.jpeg" />
-
+        <meta property="og:image" content={process.env.PUBLIC_URL +"/me.jpeg"} />
+          {/* twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://aaquib.netlify.app/" />
         <meta
@@ -76,7 +73,7 @@ export default function Home() {
           property="twitter:description"
           content="Aaquib Ahmed: A passionate self-taught frontEnd web developer, a wannapreneur, tech enthusiast, open source contributor (https://github.com/killcodeX) , tech blogger (https://www.devcript.com), writer, motivator and mentor for those who want to learn programming, development and recent technologies. Being an active part of many communities."
         />
-        <meta property="twitter:image" content="/me.jpeg" />
+        <meta property="twitter:image" content={process.env.PUBLIC_URL +"/me.jpeg"} />
       </Head>
       <Header />
       <main>
