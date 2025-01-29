@@ -13,12 +13,15 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   useEffect(() => {
+   // Only initialize AOS on the client side
+   if (typeof window !== "undefined") {
     AOS.init({
       offset: 100,
       delay: 0,
       duration: 800,
       easing: "slide",
     });
+  }
   }, []);
   return (
     <>

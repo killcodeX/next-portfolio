@@ -4,8 +4,19 @@ import { FiSend } from "react-icons/fi";
 export default function Experience() {
   const expTotal = [
     {
-      id: 1,
-      year: "2021-Present",
+      id: 3,
+      year: "2023-2024",
+      title: "Software Engineer",
+      name: "Impact Analytics",
+      desc: [
+        "Led the development of a Design System UI, creating 20+ complex, reusable components to ensure consistent UI across 5+ product teams. This improved UX consistency and component scalability, significantly enhancing development efficiency and collaboration.",
+        "Utilized Storybook for comprehensive component documentation and integrated CodeSandbox to provide interactive examples, enabling teams to explore component props usage and functionality firsthand.",
+        "Built a plug-and-play demo app using a JSON-based approach, enabling rapid product demos with a single codebase for 22+ products, streamlining client acquisition."
+      ],
+    },
+    {
+      id: 3,
+      year: "2021-2023",
       title: "Software Developer Engineer 1",
       name: "UpScalio",
       desc: [
@@ -25,7 +36,7 @@ export default function Experience() {
       ],
     },
     {
-      id: 3,
+      id: 1,
       year: "2019-2020",
       title: "Front End Developer",
       name: "Skimbox",

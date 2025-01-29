@@ -8,6 +8,7 @@ export default function Resume() {
   const ref2 = useRef();
 
   function isInViewport(element) {
+    if (!window) return;
     //console.log(element)
     const rect = element.getBoundingClientRect();
     //console.log(rect)

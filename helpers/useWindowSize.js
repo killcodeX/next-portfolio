@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from "react";
 
 const useWindowWidth = () => {
-  const [width, setWidth] = useState(typeof window !== "undefined"? window.innerWidth : 0);
-
-  function handleResize() {
-    setWidth(typeof window !== "undefined"? window.innerWidth : 0);
-  }
+  const [width, setWidth] = useState(0);
 
   useEffect(() => {
+    // Only run on client-side
+    if (typeof window === "undefined") return;
+    
+    function handleResize() {
+      setWidth(window.innerWidth);
+    }
+
     window.addEventListener("resize", handleResize);
-    handleResize();
+    handleResize(); // Set initial width
+    
     return () => window.removeEventListener("resize", handleResize);
-  }, [typeof window !== "undefined"? window.innerWidth : 0]);
+  }, []); // Remove the dependency as it's not needed
 
   return width;
 };

@@ -1,17 +1,11 @@
+import dynamic from "next/dynamic";
 import React, { useEffect } from "react";
-import MultiTasking from "../../helpers/multi-tasking.json";
-import Lottie from "react-lottie";
 import { SiApacherocketmq} from "react-icons/si";
+const LottieAnimation = dynamic(() => import("./lottieAnimations"), {
+  ssr: false,
+});
 
 export default function HomeSection() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: MultiTasking,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
 
   useEffect(() => {
     //Type-writer code
@@ -63,7 +57,7 @@ export default function HomeSection() {
           </div>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
             <div className="loftiplayer" data-aos="fade-up">
-              <Lottie options={defaultOptions} />
+              <LottieAnimation/>
             </div>
           </div>
         </div>

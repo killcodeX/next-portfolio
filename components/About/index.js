@@ -18,14 +18,7 @@ export default function About() {
               <div className="col-md-12 heading-section ftco-animate fadeInUp ftco-animated" data-aos="fade-up">
                 <h2 className="mb-4">About Me</h2>
                 <p>
-                  Hi 👋 Everyone, I am a frontend engineer with 2 years of
-                  experience in developing and shipping appealing websites and
-                  web apps. Earlier I was working as a frontend developer in a
-                  dynamic startup, where I built a B2B Dashboard webapp, and add
-                  new features like appointment booking, analytics graph,
-                  setting up admin roles, etc, thus single-handedly completing
-                  the app to 80%. I had done my engineering at Bangalore
-                  Institute of Technology, Bengaluru.
+                  Hi 👋 Everyone, I am a passionate front-end engineer with over 5 years of experience crafting dynamic and user-centric web applications. I leverage my strong foundation in various programming languages and frameworks to deliver high-impact solutions for e-commerce and SaaS businesses.
                 </p>
                 <ul className="about-info mt-4 px-md-0 px-2">
                   <li className="d-flex">

@@ -17,6 +17,7 @@ export default function Header() {
   const width = useWindowWidth();
 
   useEffect(() => {
+    if (!window) return;
     window.addEventListener("scroll", isSticky);
     setMounted(true);
     return () => {
@@ -25,6 +26,7 @@ export default function Header() {
   }, []);
 
   const isSticky = (e) => {
+    if (!window) return;
     const header = document.querySelector(".navbar");
     const scrollTop = window.scrollY;
     if (scrollTop > 150) {
