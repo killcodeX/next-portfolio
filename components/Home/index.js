@@ -48,7 +48,7 @@ export default function HomeSection() {
           <div className="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
             <div className="text text-center" data-aos="fade-up">
               <span className="subheading">Hey! I am</span>
-              <h1 className="heading">Aaquib Ahmed</h1>
+              <h1 className="heading">Aaquib Ahmad</h1>
               <div className="intro">
                 <h4>I am a</h4>
                 <h4 className="typing">hi</h4>

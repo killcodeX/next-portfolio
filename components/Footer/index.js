@@ -179,7 +179,7 @@ export default function Footer() {
                     <span className="icon icon-map-marker">
                       <AiOutlineMail />
                     </span>
-                    <span className="text">aaquibahmed@gmail.com</span>
+                    <span className="text">aaquib.ahmedus@gmail.com</span>
                   </li>
                 </ul>
               </div>
@@ -190,7 +190,7 @@ export default function Footer() {
           <div className="col-md-12 text-center">
             <p>
               Copyright © {currentYear} All rights reserved | This is made with{" "}
-              <AiFillHeart /> by Aaquib Ahmed
+              <AiFillHeart /> by Aaquib Ahmad
             </p>
           </div>
         </div>

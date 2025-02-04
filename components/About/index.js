@@ -23,11 +23,11 @@ export default function About() {
                 <ul className="about-info mt-4 px-md-0 px-2">
                   <li className="d-flex">
                     <span>Name:</span>
-                    <span>Aaquib Ahmed</span>
+                    <span>Aaquib Ahmad</span>
                   </li>
                   <li className="d-flex">
                     <span>Email:</span>
-                    <span>aaquib5076@gmail.com</span>
+                    <span>aaquib.ahmedus@gmail.com</span>
                   </li>
                 </ul>
                 <ul className="about-social mt-4 px-md-0 px-2">
